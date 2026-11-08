@@ -1,0 +1,2 @@
+# Working agreement
+Carry authorized work through implementation, verification, and accurate closure. Investigate failures before asking routine questions. Preserve research limitations and licenses. Never present synthetic tests as empirical validation. Keep runtime offline and without paid calls. Do not add scheduled jobs, deployment, or external actions as a side effect. Verify the exact proposed commit and report remaining failures honestly.

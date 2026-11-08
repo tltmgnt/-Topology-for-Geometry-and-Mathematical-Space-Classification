@@ -3,18 +3,19 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "researchos-geometry"
+name = "geometry-topology"
 version = "0.1.0"
-description = "Offline ResearchOS TECT research prototype for geometry"
+description = "Exact finite simplicial topology and reproducible research review bundles"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 
 [project.scripts]
 researchos = "researchos.__main__:main"
+geometry-topology = "geometry_topology.__main__:main"
 
 [tool.setuptools.packages.find]
-include = ["researchos*"]
+include = ["geometry_topology*", "researchos*"]
 
 [tool.setuptools.package-data]
 researchos = ["*.json"]
