@@ -33,3 +33,7 @@ No schedule, model API subscription, paid service, external message, broker perm
 ## Editorial corrections
 
 The supplied September 2026 draft is preserved as an edited repository edition dated November 8, 2026. Section 6 corrects finite-entry assumptions and the margin-resilience bound. Section 19 distinguishes verified introduced bill text from unconfirmed latest legislative status. Section 23 identifies completed Assured Autonomy work and the AI Forge → SI Forge redirect. See the source register for exact references.
+
+## Executable controller update
+
+This branch additionally implements the offline TECT v0.1 controller, versioned claim registry, explicit blocked-transition records, transitive change/expiry reassessment, and a fixed adapter calling the geometry validator. See [the implemented workflow](../RESEARCHOS.md) and [semantics](../TECT_SPEC.md). The pilot remains unassured until separate reproduction and domain adversarial evidence exist. Earlier future-work items about the local lifecycle are addressed; authenticated provenance, external independence and empirical benefit remain unimplemented. The concept paper itself is unchanged.

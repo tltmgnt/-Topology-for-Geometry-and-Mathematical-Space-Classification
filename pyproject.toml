@@ -11,7 +11,11 @@ requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 
 [project.scripts]
+researchos = "researchos.__main__:main"
 geometry-topology = "geometry_topology.__main__:main"
 
 [tool.setuptools.packages.find]
-include = ["geometry_topology*"]
+include = ["geometry_topology*", "researchos*"]
+
+[tool.setuptools.package-data]
+researchos = ["*.json"]

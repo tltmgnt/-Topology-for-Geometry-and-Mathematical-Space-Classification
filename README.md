@@ -38,3 +38,7 @@ Tests cover known spaces (disk, sphere, torus, annulus, Möbius strip, 3-sphere)
 The ResearchOS paper defines a proposed cross-domain assurance architecture. This repository implements a domain validator and reproducible local evidence bundle; it does not implement all TECT lifecycle, identity, governance, or independent-evaluation services. Performance objectives in the paper remain research targets.
 
 License: original Apache-2.0 license retained.
+
+## ResearchOS / TECT assurance layer
+
+This repository includes the shared v0.1 research controller, a scoped executable domain pilot, replayable evidence/decision bundles, adversarial regression probes, and explicit unassured outcomes. See [the workflow](docs/RESEARCHOS.md), [versioned semantics](docs/TECT_SPEC.md), and [research-program traceability](docs/TECT_RESEARCH_PLAN.md). Existing domain results retain their documented limits. No claim state authorizes external or clinical execution.
