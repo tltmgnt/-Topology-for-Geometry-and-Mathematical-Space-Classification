@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "Synthetic tetrahedron boundary (2-sphere)",
+  "simplices": [
+    [
+      "a",
+      "b",
+      "c"
+    ],
+    [
+      "a",
+      "b",
+      "d"
+    ],
+    [
+      "a",
+      "c",
+      "d"
+    ],
+    [
+      "b",
+      "c",
+      "d"
+    ]
+  ]
+}
