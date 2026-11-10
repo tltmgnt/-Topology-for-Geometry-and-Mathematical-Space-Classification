@@ -1,5 +1,14 @@
 # Topology for Geometry and Mathematical Space Classification
 
+<!-- research-workbench:start -->
+## Research workbench
+
+[Open this repository's private workbench](https://tltmgnt-topology-for-geometry-and-mathematical-space-cla.troturn31.chatgpt.site) · [All repository workbenches](https://tltmgnt-research-workbenches.troturn31.chatgpt.site)
+
+The hosted interface requires ChatGPT sign-in and access to the private Site. It supports browser-local research records, evidence fingerprints and workspace export. It is a prototype: no live AI model or repository backend is connected, and it does not establish external validation.
+<!-- research-workbench:end -->
+
+
 An offline Python research toolkit for **finite abstract simplicial complexes**. Computes exact boundary ranks and Betti numbers over GF(2), checks boundary composition and Euler–Poincaré consistency, and recognizes triangulated compact 2-manifolds using edge incidence and vertex links. Connected recognized surfaces receive orientability, boundary-component count, and genus or crosscap classification.
 
 This is a bounded implementation, not a classifier of arbitrary mathematical spaces. Equal Betti numbers do not establish homeomorphism; GF(2) homology omits integral torsion. Disconnected surfaces have no single reported genus. No embedding, geometry reconstruction, physical validation, model API, or external execution is performed.
