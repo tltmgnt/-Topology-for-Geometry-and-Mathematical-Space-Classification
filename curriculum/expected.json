@@ -1,0 +1,80 @@
+{
+  "case_count": 7,
+  "cases": [
+    {
+      "actual": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "case": "unfilled triangle is a circle",
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "actual": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "case": "filled triangle has no H1 hole",
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "actual": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "case": "tetrahedron boundary has H2",
+      "expected": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "case": "disk boundary component",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "case": "sphere genus",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": false,
+      "case": "shared edge in three faces is nonmanifold",
+      "expected": false,
+      "passed": true
+    },
+    {
+      "actual": "ValueError",
+      "case": "empty generator rejected",
+      "expected": "ValueError",
+      "passed": true
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Synthetic curriculum checks only",
+  "status": "PASS"
+}

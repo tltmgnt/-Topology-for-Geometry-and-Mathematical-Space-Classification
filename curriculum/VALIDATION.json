@@ -1,0 +1,22 @@
+{
+  "case_count": 7,
+  "command": "python curriculum/lab.py --verify",
+  "exit_code": 0,
+  "expected_sha256": "ba051c27716815dbaeee044661845ea886ec568c44a81774ff5039cecd5f6723",
+  "lab_sha256": "609cfabe3bb33409a4d8626fbe77c706cc40cf43f4f55a481ca16ee6e14d0941",
+  "python": "3.12.14",
+  "repository": "tltmgnt/-Topology-for-Geometry-and-Mathematical-Space-Classification",
+  "schema_version": 1,
+  "scope": "Local synthetic curriculum validation on the recorded source snapshot; not complete repository CI, learning outcomes, independent scientific reproduction or deployment approval",
+  "source_and_fixture_sha256": {
+    "examples/requirements.json": "598a8ef08ab44aead1607404a78086478adb5fe5a30bb93f03a8a39e74bb7539",
+    "examples/sphere.json": "0bfe9ae1ab9435c0adefce6a54e57a356599288dce6161ae41b5d0498466f5b6",
+    "geometry_topology/__init__.py": "29f21b7169b97bae321bd3e5a89e992227b610789361ce45bd8d75f188a4d53a",
+    "geometry_topology/__main__.py": "a591d5b85531039763eb2cbf54f22c36384fdc36e7aa31cbb21e295ad4f4a465",
+    "geometry_topology/analysis.py": "8b61edc2f1f5b94264135aab4286562740c9ad80abc1f8e33c7a8981b9782d80",
+    "geometry_topology/io.py": "b1f3bd611a201debe79c6ece604bb3019ddd56349eb56ba04f94ebd0b519d102",
+    "geometry_topology/render.py": "4e47fc42bf50dbf77a2e4580da4e4f0011c0f81229c85c2700dd88a97054eaa1"
+  },
+  "source_base_commit": "c2df6229df82e3dd4b034b390eebbe68030e0b27",
+  "wrong_expectation_exit_code": 1
+}
